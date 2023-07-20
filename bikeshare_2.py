@@ -208,7 +208,7 @@ def user_stats(df, city):
         print('Counts of Each User Gender:')
         print(gender)
     except:
-        print('Counts of Each User Gender:\nSorry, no gender data available for {} City'.format(city.title()))
+        print('Counts of Each User Gender:\nSorry, there is no gender data available for {} City'.format(city.title()))
       
     # displays earliest, most recent, and most common year of birth
     try:
